@@ -1,0 +1,95 @@
+
+.template-wa{
+    border-radius: 10px;width: 560px;height: 360px;background:white; 
+}
+
+.container {
+    background-color: #fff;
+    margin-left: 1px;
+    margin-right: 100px;
+    width: 100%; 
+    padding-bottom: 25px;
+    border-bottom: 1px solid #black;
+    border-radius: 0 10px 10px 10px;
+}
+
+li{
+  margin: 0 5px;
+}
+
+li:first-child{
+  margin-left: 0;
+}
+
+li.active{
+	color: #fff;
+}
+
+.fa, .fas {
+    font-weight: normal;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    font-family: Varela Round ;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+.nav-tabs>li>a {
+    font-family: Varela Round !important;
+    background: #e8e8e8;
+	color : black;
+    margin-right: 2px;
+    line-height: 1.42857143;
+}
+
+.wp-person a:focus .gravatar, a:focus, a:focus .media-icon img {
+    -webkit-box-shadow: 0 0 0 0px;
+    box-shadow: 0 0 0 0px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: black;
+    cursor: default;
+    background-color: #fff;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a {
+    font-family: arial;
+    margin-right: 0px;
+}
+
+ul.nav-tabs{
+
+    text-align: left;
+    direction: rtl;
+    /*background: white;*/
+    border-bottom: 1px solid #ddd;
+    border-radius: 3px 3px 0 0;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: #ddd; 
+    background: white;
+}
+
+#wpbody-content {
+    padding: 0 80px 100% 80px;
+    float: left;
+    width: 100%;
+    overflow: visible!important;
+    background: #ddd;
+    /*
+    background-size: 100%;
+    background-image: url(../img/background.jpg);
+    background-position: initial;*/
+}
+
+#wpcontent {
+    padding-left: 0px; 
+}
+
+.btn{
+    font-family: Varela Round;
+}

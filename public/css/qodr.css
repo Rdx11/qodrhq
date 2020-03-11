@@ -1,0 +1,18 @@
+h5{
+	    display: inline-block;
+}
+
+.modal-title{
+	font-size: 17px;
+}
+
+input.form_biodata,select.form_biodata{
+	background: none;
+	border: none;
+	border-bottom:1px solid gray;
+	box-shadow: none;
+	width: 300px;
+}
+textarea.form_biodata{
+	width: 300px;
+}
